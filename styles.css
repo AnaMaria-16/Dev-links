@@ -13,7 +13,7 @@ body * {
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --highlight-color: rgba(255, 255, 255, 0.2);
     --switch-bg-url:url(./moon-stars.svg);
-
+    --border-color: rgba(69, 65, 69, 1);
 }
 
 .light {
@@ -24,6 +24,7 @@ body * {
     --highlight-color: rgba(0, 0, 0, 0.1);
     --highlight-color: rgba(255, 255, 255, 0.2);
     --switch-bg-url: url(./sunn-stars.svg);
+    --border-color: rgba(255, 0, 0, 1)
 }
 
 
@@ -38,8 +39,10 @@ body {
 }
 
 #container {
-    border: 1px solid red;
-    width: 360px;
+    border: 1px solid var(--border-color);
+    
+    width: 100%;
+    max-width: 588px;
     margin: 56px auto 0px;
     padding: 0 24px;
 
