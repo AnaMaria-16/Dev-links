@@ -22,7 +22,7 @@ body * {
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --highlight-color: rgba(0, 0, 0, 0.1);
-    --highlight-color: rgba(255, 255, 255, 0.5);
+    --highlight-color: rgba(255, 255, 255, 0.51);
     --switch-bg-url: url(./sunn-stars.svg);
     --border-color: rgba(255, 0, 0, 1)
 }
@@ -161,7 +161,6 @@ ul li a:hover {
 #social-links a:hover {
     background: var(--highlight-color)
 }
-
 
 footer {
     padding: 24px 0;
